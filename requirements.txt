@@ -1,0 +1,6 @@
+torch
+gym[atari]
+stable-baselines3
+autorom
+numpy
+opencv-python
