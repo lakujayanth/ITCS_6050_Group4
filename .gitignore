@@ -1,0 +1,48 @@
+# Virtual environments
+venv/
+.venv/
+env/
+virtualenv/
+*/venv/
+*/.venv/
+*/env/
+*/virtualenv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs and runtime files
+*.log
+*.log.*
+*.pid
+*.seed
+
+# Saved models and training outputs (specific to your project)
+ppo_*.zip  # Saved PPO models (e.g., ppo_pong.zip, ppo_snake.zip)
+training_plots/  # Directory for training plots
+videos/  # Directory for recorded videos (e.g., from Pong)
+
+# IDE and editor files
+.idea/  # PyCharm/IntelliJ
+.vscode/  # Visual Studio Code
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
