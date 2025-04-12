@@ -233,12 +233,3 @@ This project uses Atari ROMs via `gym[accept-rom-license]`, intended for researc
 
 - Based on MAML concepts from [arXiv:2209.14110](https://arxiv.org/pdf/2209.14110).
 - Built with `gym`, `torch`, and `ale-py` for reinforcement learning.
-
----
-
-### Notes
-- **Clarity**: The README is concise yet detailed, covering setup, usage, and debugging for users familiar with Python/ML.
-- **VS Code Focus**: Emphasizes running from VS Code with a virtual environment, matching your request.
-- **Batch Support**: Explains `run_batch.sh` and SLURM options for hyperparameter tuning.
-- **Learning Validation**: Reassures users that `game_rewards.png` and logs confirm learning across games.
-- **Flexibility**: Guides adding new configs or environments for future extensions.
