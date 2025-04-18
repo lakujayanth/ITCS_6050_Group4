@@ -1,7 +1,9 @@
-gym==0.25.2
-ale-py>=0.10.1
-torch
-numpy
-matplotlib
-opencv-python-headless
-imageio-ffmpeg
+numpy==1.24.4 
+gym==0.26.2 
+ale-py==0.8.1 
+torch==2.0.1 
+torchvision==0.15.2 
+matplotlib==3.7.1 
+opencv-python-headless==4.7.0.72 
+imageio-ffmpeg==0.4.8 
+psutil==5.9.5
