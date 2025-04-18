@@ -1,12 +1,18 @@
-meta_learning/
-├── environments.py
+Meta_Learning/
+├── environment.py
 ├── model.py
 ├── maml.py
-├── config.py
+├── utils.py
 ├── main.py
-├── run_batch.sh
 ├── requirements.txt
-├── outputs/
-│   ├── models/
-│   ├── videos/
-│   ├── plots/
+├── logs/
+│   └── training_<timestamp>.log
+├── models/
+│   └── <env_name>_model_iter<iteration>_<timestamp>.pth
+├── videos/
+│   └── <env_name>_eval_<timestamp>.mp4
+├── checkpoints/
+│   └── checkpoint.pth
+├── plots/
+│   └── training_loss_<timestamp>.png
+│   └── game_rewards_<timestamp>.png
